@@ -7,10 +7,7 @@ from PIL import Image
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
 
-# Grid sized so the SVG's native pixel size already matches the display width
-# used in the README (370px) — rendering at 1:1 avoids the browser downscaling
-# the dense monospace text, which otherwise causes color-fringing/noise artifacts.
-COLS, ROWS = 53, 31
+COLS, ROWS = 100, 53
 RAMP = " .`:-=+*cs#%@"
 CHAR_W, CHAR_H = 7, 12
 FONT_SIZE = 11

@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="300" viewBox="0 0 490 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="368" viewBox="0 0 490 368">
   <style>
     .title { font: 700 16px 'Courier New', monospace; fill: #9fb3c8; }
     .prompt { font: 400 13px 'Courier New', monospace; fill: #6e7681; }
     .label { font: 700 13px 'Courier New', monospace; fill: #58a6ff; }
     .value { font: 400 13px 'Courier New', monospace; fill: #c9d1d9; }
   </style>
-  <rect x="1" y="1" width="488" height="298" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="488" height="366" rx="10" fill="#0d1117" stroke="#30363d"/>
   <text class="prompt" x="24" y="34">samuel@github:~$</text>
   <text class="title" x="24" y="60">whoami</text>
 
@@ -35,22 +35,22 @@
     <animateTransform attributeName="transform" type="translate" from="-16,192" to="24,192"
       dur="0.5s" begin="0.54s" fill="freeze"/>
     <text class="label" x="0" y="0">focus</text>
-    <text class="value" x="120" y="0">APIs REST, automação RPA, cloud &amp; pipelines de</text>
+    <text class="value" x="120" y="0">APIs REST, automação RPA, cloud &amp;</text>
   </g>
   <g class="row" transform="translate(24,226)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.54s" fill="freeze"/>
-    <text class="value" x="120" y="0">dados</text>
+    <text class="value" x="120" y="0">pipelines de dados</text>
   </g>
   <g class="row" transform="translate(24,260)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.72s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="-16,260" to="24,260"
       dur="0.5s" begin="0.72s" fill="freeze"/>
     <text class="label" x="0" y="0">stack</text>
-    <text class="value" x="120" y="0">Python, Java, TS, Django, Spring Boot, React,</text>
+    <text class="value" x="120" y="0">Python, Java, TS, Django, Spring Boot,</text>
   </g>
   <g class="row" transform="translate(24,294)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.72s" fill="freeze"/>
-    <text class="value" x="120" y="0">AWS, Docker</text>
+    <text class="value" x="120" y="0">React, AWS, Docker</text>
   </g>
   <g class="row" transform="translate(24,328)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.90s" fill="freeze"/>

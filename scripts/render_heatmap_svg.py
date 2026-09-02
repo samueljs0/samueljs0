@@ -6,7 +6,8 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+PALETTE = ["#21262d", "#0e4429", "#006d32", "#26a641", "#39d353"]
+STROKE = "#30363d"
 BOX, GAP = 11, 3
 COLS, ROWS = 53, 7
 MARGIN = 20
@@ -33,6 +34,7 @@ def build_svg(days: list[dict]) -> str:
     boxes = []
     if ordered_dates:
         first = datetime.strptime(ordered_dates[0], "%Y-%m-%d").date()
+        start_col_offset = first.weekday()
         for i, d_str in enumerate(ordered_dates):
             d = by_date[d_str]
             idx = i + ((first.isoweekday() % 7))
@@ -43,7 +45,7 @@ def build_svg(days: list[dict]) -> str:
             delay = col * 0.015
             boxes.append(
                 f'<rect x="{x}" y="-{BOX}" width="{BOX}" height="{BOX}" rx="2" '
-                f'fill="{color_for(d["level"])}">'
+                f'fill="{color_for(d["level"])}" stroke="{STROKE}" stroke-width="1">'
                 f'<animate attributeName="y" from="-{BOX}" to="{y}" dur="0.4s" '
                 f'begin="{delay:.3f}s" fill="freeze" calcMode="spline" '
                 f'keySplines="0.2 0.8 0.2 1"/>'
@@ -52,7 +54,7 @@ def build_svg(days: list[dict]) -> str:
 
     boxes_joined = "\n  ".join(boxes)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-  <rect width="{width}" height="{height}" fill="#010409"/>
+  <rect width="{width}" height="{height}" fill="#0d1117"/>
   {boxes_joined}
 </svg>
 """

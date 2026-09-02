@@ -23,4 +23,19 @@
 
 <img src="https://skillicons.dev/icons?i=react,postgres,mysql,redis,aws,docker,kubernetes,git,bash" alt="Stack icons — libs, dados & infra" />
 
+<br>
+
+### `~$ stats --github`
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="padding: 0; border: none;">
+      <img src="https://github-readme-stats.vercel.app/api?username=samueljs0&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=9fb3c8&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff" alt="Estatísticas do GitHub" />
+    </td>
+    <td style="padding: 0; border: none;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samueljs0&layout=compact&hide_border=true&bg_color=0d1117&title_color=9fb3c8&text_color=c9d1d9&border_radius=10" alt="Tecnologias mais usadas" />
+    </td>
+  </tr>
+</table>
+
 </div>

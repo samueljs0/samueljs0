@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="371" height="372" viewBox="0 0 371 372">
+  <style>
+    .row { font-family: 'Courier New', monospace; font-size: 11px; fill: #9fb3c8; white-space: pre; }
+  </style>
+  <rect width="371" height="372" fill="#0d1117"/>
+  <text x="0" y="10" class="row" opacity="0">                                                     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.00s" fill="freeze"/></text>
+  <text x="0" y="22" class="row" opacity="0">                                                     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.02s" fill="freeze"/></text>
+  <text x="0" y="34" class="row" opacity="0">                         ..                          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.04s" fill="freeze"/></text>
+  <text x="0" y="46" class="row" opacity="0">                        ...        ..                <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.06s" fill="freeze"/></text>
+  <text x="0" y="58" class="row" opacity="0">                       ..            ..              <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.08s" fill="freeze"/></text>
+  <text x="0" y="70" class="row" opacity="0">                      ..               ..            <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.10s" fill="freeze"/></text>
+  <text x="0" y="82" class="row" opacity="0">                      .  ....           .            <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.12s" fill="freeze"/></text>
+  <text x="0" y="94" class="row" opacity="0">                     ..`:-::::.`-.                   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.14s" fill="freeze"/></text>
+  <text x="0" y="106" class="row" opacity="0">                    ..`=+++-===+c-`..                <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.16s" fill="freeze"/></text>
+  <text x="0" y="118" class="row" opacity="0">                     .-****+++*ss+:::.               <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.18s" fill="freeze"/></text>
+  <text x="0" y="130" class="row" opacity="0">                     .---:`:=++=-:`.:`.  ...         <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.20s" fill="freeze"/></text>
+  <text x="0" y="142" class="row" opacity="0">                     .:`::..:*+:..``:-: ...          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.22s" fill="freeze"/></text>
+  <text x="0" y="154" class="row" opacity="0">                     `==+==-+c*+-`:-=++....          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.24s" fill="freeze"/></text>
+  <text x="0" y="166" class="row" opacity="0">                     :*ssc=+ccc*+=*c***`..           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.26s" fill="freeze"/></text>
+  <text x="0" y="178" class="row" opacity="0">                     -+cc=::-++++-+ccc*-`            <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.28s" fill="freeze"/></text>
+  <text x="0" y="190" class="row" opacity="0">                     :-=::-::=++*+:-****`            <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.30s" fill="freeze"/></text>
+  <text x="0" y="202" class="row" opacity="0">          ..         .:c=.:=++++=:-=**=`             <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.32s" fill="freeze"/></text>
+  <text x="0" y="214" class="row" opacity="0">          `.          .-*-:--===+*++++.              <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.34s" fill="freeze"/></text>
+  <text x="0" y="226" class="row" opacity="0">         .`            -=+++++*cc*+==`               <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.36s" fill="freeze"/></text>
+  <text x="0" y="238" class="row" opacity="0">        .``            -``-+++**+==+:                <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.38s" fill="freeze"/></text>
+  <text x="0" y="250" class="row" opacity="0">      ..:::::``...... .-:`....`-=+**`                <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.40s" fill="freeze"/></text>
+  <text x="0" y="262" class="row" opacity="0">   .`:::--=-::::````. `-=-::=+cccc**:                <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.42s" fill="freeze"/></text>
+  <text x="0" y="274" class="row" opacity="0"> .:--:````:`````.```..`=+++-+**ccc*+:`.              <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.44s" fill="freeze"/></text>
+  <text x="0" y="286" class="row" opacity="0">:-:`````...```.........`-+*++***+=-``....            <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.46s" fill="freeze"/></text>
+  <text x="0" y="298" class="row" opacity="0">-::````.`...`.............``:::`...............      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.48s" fill="freeze"/></text>
+  <text x="0" y="310" class="row" opacity="0">-::````````.......`.............................``.  <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.50s" fill="freeze"/></text>
+  <text x="0" y="322" class="row" opacity="0">::`````````....`.`:.... ................. ......``:`.<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.52s" fill="freeze"/></text>
+  <text x="0" y="334" class="row" opacity="0">==:::::::`:`.....:``... ................  .... ..``::<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.54s" fill="freeze"/></text>
+  <text x="0" y="346" class="row" opacity="0">***+--::::-:`....``..... ............... .... .....`:<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.56s" fill="freeze"/></text>
+  <text x="0" y="358" class="row" opacity="0">****+==----:`.````...... .............. .... ......``<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.58s" fill="freeze"/></text>
+  <text x="0" y="370" class="row" opacity="0">*****++==---:`:`:`.................... .... ...  ...`<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.60s" fill="freeze"/></text>
+</svg>

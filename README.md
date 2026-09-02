@@ -6,10 +6,10 @@
 
 <br>
 
-<table>
+<table style="border-collapse: collapse; width: 860px;">
   <tr>
-    <td><img src="assets/samuel-ascii.svg" width="430" alt="Samuel Silva ASCII portrait" /></td>
-    <td><img src="assets/info-card.svg" width="430" alt="Info card" /></td>
+    <td style="padding: 0; border: none; width: 430px;"><img src="assets/samuel-ascii.svg" width="430" alt="Samuel Silva ASCII portrait" /></td>
+    <td style="padding: 0; border: none; width: 430px;"><img src="assets/info-card.svg" width="430" alt="Info card" /></td>
   </tr>
 </table>
 

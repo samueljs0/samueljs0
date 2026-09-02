@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="244" viewBox="0 0 430 244">
+  <style>
+    .title { font: 700 18px 'Courier New', monospace; fill: #9fb3c8; }
+    .prompt { font: 400 14px 'Courier New', monospace; fill: #6e7681; }
+    .lang { font: 400 14px 'Courier New', monospace; fill: #c9d1d9; }
+  </style>
+  <rect x="1" y="1" width="428" height="242" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text class="prompt" x="24" y="34">samuel@github:~$</text>
+  <text class="title" x="24" y="60">tecnologias</text>
+  <rect x="24" y="74" width="382" height="10" rx="5" fill="#161b22"/>
+  <rect x="24.0" y="74" width="126.10" height="10" fill="#3572A5"/>
+  <rect x="150.1" y="74" width="101.92" height="10" fill="#00B4AB"/>
+  <rect x="252.0" y="74" width="68.65" height="10" fill="#3178c6"/>
+  <rect x="320.7" y="74" width="53.29" height="10" fill="#e34c26"/>
+  <rect x="374.0" y="74" width="16.08" height="10" fill="#c6538c"/>
+  <rect x="390.0" y="74" width="6.00" height="10" fill="#f1e05a"/>
+  <rect x="396.0" y="74" width="2.94" height="10" fill="#f34b7d"/>
+  <rect x="399.0" y="74" width="1.83" height="10" fill="#b07219"/>
+  <rect x="400.8" y="74" width="5.31" height="10" fill="#8b949e"/>
+
+  <g transform="translate(24.0,108)">
+    <circle cx="4" cy="-4" r="4" fill="#3572A5"/>
+    <text class="lang" x="14" y="0">Python 33.01%</text>
+  </g>
+  <g transform="translate(215.0,108)">
+    <circle cx="4" cy="-4" r="4" fill="#00B4AB"/>
+    <text class="lang" x="14" y="0">Dart 26.68%</text>
+  </g>
+  <g transform="translate(24.0,134)">
+    <circle cx="4" cy="-4" r="4" fill="#3178c6"/>
+    <text class="lang" x="14" y="0">TypeScript 17.97%</text>
+  </g>
+  <g transform="translate(215.0,134)">
+    <circle cx="4" cy="-4" r="4" fill="#e34c26"/>
+    <text class="lang" x="14" y="0">HTML 13.95%</text>
+  </g>
+  <g transform="translate(24.0,160)">
+    <circle cx="4" cy="-4" r="4" fill="#c6538c"/>
+    <text class="lang" x="14" y="0">SCSS 4.21%</text>
+  </g>
+  <g transform="translate(215.0,160)">
+    <circle cx="4" cy="-4" r="4" fill="#f1e05a"/>
+    <text class="lang" x="14" y="0">JavaScript 1.57%</text>
+  </g>
+  <g transform="translate(24.0,186)">
+    <circle cx="4" cy="-4" r="4" fill="#f34b7d"/>
+    <text class="lang" x="14" y="0">C++ 0.77%</text>
+  </g>
+  <g transform="translate(215.0,186)">
+    <circle cx="4" cy="-4" r="4" fill="#b07219"/>
+    <text class="lang" x="14" y="0">Java 0.48%</text>
+  </g>
+  <g transform="translate(24.0,212)">
+    <circle cx="4" cy="-4" r="4" fill="#8b949e"/>
+    <text class="lang" x="14" y="0">Outras 1.39%</text>
+  </g>
+</svg>

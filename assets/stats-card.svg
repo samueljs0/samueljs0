@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="224" viewBox="0 0 430 224">
+  <style>
+    .title { font: 700 15px 'Courier New', monospace; fill: #c9d1d9; }
+    .label { font: 400 13px 'Courier New', monospace; fill: #8b949e; }
+    .value { font: 700 13px 'Courier New', monospace; fill: #c9d1d9; }
+    .grade { font: 700 26px 'Courier New', monospace; }
+  </style>
+  <rect x="1" y="1" width="428" height="222" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text class="title" x="24" y="34">Estatísticas do GitHub de Samuel J. Silva</text>
+
+  <g class="row" transform="translate(24,76)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.00s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="4,76" to="24,76"
+      dur="0.5s" begin="0.00s" fill="freeze"/>
+    <g transform="translate(6,-4)"><polygon points="0.00,-6.00 -1.53,-2.10 -5.71,-1.85 -2.47,0.80 -3.53,4.85 -0.00,2.60 3.53,4.85 2.47,0.80 5.71,-1.85 1.53,-2.10" fill="#e3b341"/></g>
+    <text class="label" x="20" y="0">Total de estrelas:</text>
+    <text class="value" x="268" y="0">0</text>
+  </g>
+  <g class="row" transform="translate(24,103)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="4,103" to="24,103"
+      dur="0.5s" begin="0.15s" fill="freeze"/>
+    <g transform="translate(6,-4)"><line x1="-7" y1="0" x2="-3" y2="0" stroke="#39d0d8" stroke-width="2"/><circle r="3" fill="none" stroke="#39d0d8" stroke-width="2"/><line x1="3" y1="0" x2="7" y2="0" stroke="#39d0d8" stroke-width="2"/></g>
+    <text class="label" x="20" y="0">Total de commits:</text>
+    <text class="value" x="268" y="0">327</text>
+  </g>
+  <g class="row" transform="translate(24,130)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.30s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="4,130" to="24,130"
+      dur="0.5s" begin="0.30s" fill="freeze"/>
+    <g transform="translate(6,-4)"><line x1="0" y1="-6" x2="0" y2="6" stroke="#a371f7" stroke-width="2"/><circle cy="-6" r="2.6" fill="none" stroke="#a371f7" stroke-width="2"/><circle cy="6" r="2.6" fill="#a371f7"/></g>
+    <text class="label" x="20" y="0">Total de PRs:</text>
+    <text class="value" x="268" y="0">339</text>
+  </g>
+  <g class="row" transform="translate(24,157)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.45s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="4,157" to="24,157"
+      dur="0.5s" begin="0.45s" fill="freeze"/>
+    <g transform="translate(6,-4)"><circle r="6" fill="none" stroke="#f85149" stroke-width="2"/><circle r="1.8" fill="#f85149"/></g>
+    <text class="label" x="20" y="0">Total de issues:</text>
+    <text class="value" x="268" y="0">204</text>
+  </g>
+  <g class="row" transform="translate(24,184)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.60s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="4,184" to="24,184"
+      dur="0.5s" begin="0.60s" fill="freeze"/>
+    <g transform="translate(6,-4)"><rect x="-6" y="-6" width="12" height="12" rx="2" fill="none" stroke="#3fb950" stroke-width="2"/><line x1="-6" y1="-1.5" x2="6" y2="-1.5" stroke="#3fb950" stroke-width="1.5"/></g>
+    <text class="label" x="20" y="0">Contribuiu p/ (ano passado):</text>
+    <text class="value" x="268" y="0">4</text>
+  </g>
+
+  <circle cx="372" cy="130.0" r="34" fill="none" stroke="#30363d" stroke-width="6"/>
+  <circle cx="372" cy="130.0" r="34" fill="none" stroke="#3fb950" stroke-width="6"
+    stroke-linecap="round" stroke-dasharray="152.68 213.63"
+    transform="rotate(-90 372 130.0)">
+    <animate attributeName="stroke-dasharray" from="0 213.63" to="152.68 213.63"
+      dur="1s" begin="0.2s" fill="freeze"/>
+  </circle>
+  <text class="grade" x="372" y="138.0" text-anchor="middle" fill="#3fb950">A</text>
+</svg>

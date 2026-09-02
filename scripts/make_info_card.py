@@ -22,15 +22,15 @@ ROWS = [
     ("status", "Aberto a novos desafios remotos"),
 ]
 
-LINE_HEIGHT = 34
-START_Y = 90
+LINE_HEIGHT = 38
+START_Y = 94
 
 
 def escape(text: str) -> str:
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def wrap(value: str, max_chars: int = 38) -> list[str]:
+def wrap(value: str, max_chars: int = 34) -> list[str]:
     words = value.split(" ")
     lines, current = [], ""
     for w in words:
@@ -75,10 +75,10 @@ def build_svg() -> str:
     rows_joined = "".join(rows_svg)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}">
   <style>
-    .title {{ font: 700 16px 'Courier New', monospace; fill: {TITLE_COLOR}; }}
-    .prompt {{ font: 400 13px 'Courier New', monospace; fill: #6e7681; }}
-    .label {{ font: 700 13px 'Courier New', monospace; fill: {LABEL_COLOR}; }}
-    .value {{ font: 400 13px 'Courier New', monospace; fill: {VALUE_COLOR}; }}
+    .title {{ font: 700 18px 'Courier New', monospace; fill: {TITLE_COLOR}; }}
+    .prompt {{ font: 400 14px 'Courier New', monospace; fill: #6e7681; }}
+    .label {{ font: 700 15px 'Courier New', monospace; fill: {LABEL_COLOR}; }}
+    .value {{ font: 400 15px 'Courier New', monospace; fill: {VALUE_COLOR}; }}
   </style>
   <rect x="1" y="1" width="{WIDTH - 2}" height="{height - 2}" rx="10" fill="{BG}" stroke="{BORDER}"/>
   <text class="prompt" x="24" y="34">samuel@github:~$</text>

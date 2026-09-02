@@ -1,60 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="445" viewBox="0 0 490 445">
   <style>
-    .title { font: 700 16px 'Courier New', monospace; fill: #9fb3c8; }
-    .prompt { font: 400 13px 'Courier New', monospace; fill: #6e7681; }
-    .label { font: 700 13px 'Courier New', monospace; fill: #58a6ff; }
-    .value { font: 400 13px 'Courier New', monospace; fill: #c9d1d9; }
+    .title { font: 700 18px 'Courier New', monospace; fill: #9fb3c8; }
+    .prompt { font: 400 14px 'Courier New', monospace; fill: #6e7681; }
+    .label { font: 700 15px 'Courier New', monospace; fill: #58a6ff; }
+    .value { font: 400 15px 'Courier New', monospace; fill: #c9d1d9; }
   </style>
   <rect x="1" y="1" width="488" height="443" rx="10" fill="#0d1117" stroke="#30363d"/>
   <text class="prompt" x="24" y="34">samuel@github:~$</text>
   <text class="title" x="24" y="60">whoami</text>
 
-  <g class="row" transform="translate(24,90)" opacity="0">
+  <g class="row" transform="translate(24,94)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.00s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-16,90" to="24,90"
+    <animateTransform attributeName="transform" type="translate" from="-16,94" to="24,94"
       dur="0.5s" begin="0.00s" fill="freeze"/>
     <text class="label" x="0" y="0">role</text>
     <text class="value" x="120" y="0">Full-Stack Software Developer</text>
   </g>
-  <g class="row" transform="translate(24,124)" opacity="0">
+  <g class="row" transform="translate(24,132)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.18s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-16,124" to="24,124"
+    <animateTransform attributeName="transform" type="translate" from="-16,132" to="24,132"
       dur="0.5s" begin="0.18s" fill="freeze"/>
     <text class="label" x="0" y="0">experience</text>
     <text class="value" x="120" y="0">+4 anos em soluções web &amp; mobile</text>
   </g>
-  <g class="row" transform="translate(24,158)" opacity="0">
+  <g class="row" transform="translate(24,170)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.36s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-16,158" to="24,158"
+    <animateTransform attributeName="transform" type="translate" from="-16,170" to="24,170"
       dur="0.5s" begin="0.36s" fill="freeze"/>
     <text class="label" x="0" y="0">location</text>
     <text class="value" x="120" y="0">Jaguaribe, CE - Brasil</text>
   </g>
-  <g class="row" transform="translate(24,192)" opacity="0">
+  <g class="row" transform="translate(24,208)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.54s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-16,192" to="24,192"
+    <animateTransform attributeName="transform" type="translate" from="-16,208" to="24,208"
       dur="0.5s" begin="0.54s" fill="freeze"/>
     <text class="label" x="0" y="0">focus</text>
     <text class="value" x="120" y="0">APIs REST, automação RPA, cloud &amp;</text>
   </g>
-  <g class="row" transform="translate(24,226)" opacity="0">
+  <g class="row" transform="translate(24,246)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.54s" fill="freeze"/>
     <text class="value" x="120" y="0">pipelines de dados</text>
   </g>
-  <g class="row" transform="translate(24,260)" opacity="0">
+  <g class="row" transform="translate(24,284)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.72s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-16,260" to="24,260"
+    <animateTransform attributeName="transform" type="translate" from="-16,284" to="24,284"
       dur="0.5s" begin="0.72s" fill="freeze"/>
     <text class="label" x="0" y="0">stack</text>
-    <text class="value" x="120" y="0">Python, Java, TS, Django, Spring Boot,</text>
+    <text class="value" x="120" y="0">Python, Java, TS, Django, Spring</text>
   </g>
-  <g class="row" transform="translate(24,294)" opacity="0">
+  <g class="row" transform="translate(24,322)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.72s" fill="freeze"/>
-    <text class="value" x="120" y="0">React, AWS, Docker</text>
+    <text class="value" x="120" y="0">Boot, React, AWS, Docker</text>
   </g>
-  <g class="row" transform="translate(24,328)" opacity="0">
+  <g class="row" transform="translate(24,360)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.90s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="-16,328" to="24,328"
+    <animateTransform attributeName="transform" type="translate" from="-16,360" to="24,360"
       dur="0.5s" begin="0.90s" fill="freeze"/>
     <text class="label" x="0" y="0">status</text>
     <text class="value" x="120" y="0">Aberto a novos desafios remotos</text>

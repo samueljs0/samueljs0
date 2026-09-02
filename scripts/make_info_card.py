@@ -4,6 +4,9 @@ from pathlib import Path
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
 
 WIDTH = 490
+# samuel-ascii.svg é sempre 700x636 (COLS*CHAR_W x ROWS*CHAR_H); mantemos o
+# card na mesma proporção para os dois renderizarem no mesmo tamanho no README.
+ASCII_W, ASCII_H = 700, 636
 BG = "#0d1117"
 BORDER = "#30363d"
 LABEL_COLOR = "#58a6ff"
@@ -67,7 +70,8 @@ def build_svg() -> str:
             y += LINE_HEIGHT
         delay += 0.18
 
-    height = y - LINE_HEIGHT + 40
+    content_height = y - LINE_HEIGHT + 40
+    height = max(content_height, round(WIDTH * ASCII_H / ASCII_W))
     rows_joined = "".join(rows_svg)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}">
   <style>

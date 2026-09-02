@@ -9,7 +9,7 @@
 <table>
   <tr>
     <td><img src="assets/samuel-ascii.svg" width="370" alt="Samuel Silva ASCII portrait" /></td>
-    <td><img src="assets/info-card.svg" width="490" alt="Info card" /></td>
+    <td><img src="assets/info-card.svg" width="370" alt="Info card" /></td>
   </tr>
 </table>
 

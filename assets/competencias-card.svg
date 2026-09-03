@@ -1,11 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="248" viewBox="0 0 860 248">
   <style>
+    :root { color-scheme: light dark; }
+    .bg { fill: #0d1117; stroke: #30363d; }
     .title { font: 700 18px 'Courier New', monospace; fill: #9fb3c8; }
     .prompt { font: 400 14px 'Courier New', monospace; fill: #6e7681; }
     .heading { font: 700 14px 'Courier New', monospace; fill: #58a6ff; }
     .body { font: 400 13px 'Courier New', monospace; fill: #c9d1d9; }
+
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #ffffff; stroke: #d0d7de; }
+      .title { fill: #57606a; }
+      .prompt { fill: #6e7781; }
+      .heading { fill: #0969da; }
+      .body { fill: #24292f; }
+    }
   </style>
-  <rect x="1" y="1" width="858" height="246" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="858" height="246" rx="10" class="bg"/>
   <text class="prompt" x="24" y="34">samuel@github:~$</text>
   <text class="title" x="24" y="60">competencias</text>
 

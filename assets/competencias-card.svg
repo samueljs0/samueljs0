@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="248" viewBox="0 0 860 248">
+  <style>
+    .title { font: 700 18px 'Courier New', monospace; fill: #9fb3c8; }
+    .prompt { font: 400 14px 'Courier New', monospace; fill: #6e7681; }
+    .heading { font: 700 14px 'Courier New', monospace; fill: #58a6ff; }
+    .body { font: 400 13px 'Courier New', monospace; fill: #c9d1d9; }
+  </style>
+  <rect x="1" y="1" width="858" height="246" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text class="prompt" x="24" y="34">samuel@github:~$</text>
+  <text class="title" x="24" y="60">competencias</text>
+
+  <g transform="translate(24.0,84)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.00s" fill="freeze"/>
+    <text class="heading">▸ Mentoria técnica</text>
+    <text class="body" x="0" y="18">Apoio e orientação a devs juniores em</text><text class="body" x="0" y="34">revisão de código e boas práticas.</text>
+  </g>
+  <g transform="translate(430.0,84)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.12s" fill="freeze"/>
+    <text class="heading">▸ Autonomia ponta a ponta</text>
+    <text class="body" x="0" y="18">Conduz soluções da concepção ao deploy, sem</text><text class="body" x="0" y="34">supervisão direta.</text>
+  </g>
+  <g transform="translate(24.0,136)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.24s" fill="freeze"/>
+    <text class="heading">▸ Resolução analítica de problemas</text>
+    <text class="body" x="0" y="18">Automações que já reduziram 20% do tempo de</text><text class="body" x="0" y="34">processos operacionais.</text>
+  </g>
+  <g transform="translate(430.0,136)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.36s" fill="freeze"/>
+    <text class="heading">▸ Levantamento de requisitos</text>
+    <text class="body" x="0" y="18">Atua direto com as áreas de negócio na</text><text class="body" x="0" y="34">definição de soluções técnicas.</text>
+  </g>
+  <g transform="translate(24.0,188)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.48s" fill="freeze"/>
+    <text class="heading">▸ Colaboração multidisciplinar</text>
+    <text class="body" x="0" y="18">Integração entre frontend, backend e</text><text class="body" x="0" y="34">infraestrutura em times pequenos.</text>
+  </g>
+  <g transform="translate(430.0,188)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.60s" fill="freeze"/>
+    <text class="heading">▸ Trabalho remoto autogerenciado</text>
+    <text class="body" x="0" y="18">Rotina 100% remota desde 2024, em mais de um</text><text class="body" x="0" y="34">projeto simultâneo.</text>
+  </g>
+</svg>

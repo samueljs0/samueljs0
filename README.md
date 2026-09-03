@@ -1,10 +1,6 @@
 <div align="center">
 
-### `~$ contributions --last-year`
-
-<img src="assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
-
-<br>
+### `~$ whoami`
 
 <table style="border-collapse: collapse; width: 860px;">
   <tr>
@@ -12,6 +8,22 @@
     <td style="padding: 0; border: none; width: 430px;"><img src="assets/info-card.svg" width="430" alt="Info card" /></td>
   </tr>
 </table>
+
+<br>
+
+### `~$ cat competencias.txt`
+
+<img src="assets/competencias-card.svg" width="860" alt="Competências" />
+
+<br>
+
+### `~$ skills --list`
+
+<img src="https://skillicons.dev/icons?i=py,java,cs,js,ts,html,css,django,spring,angular" alt="Stack icons — linguagens & frameworks" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=react,postgres,mysql,redis,aws,docker,kubernetes,git,bash" alt="Stack icons — libs, dados & infra" />
 
 <br>
 
@@ -26,12 +38,8 @@
 
 <br>
 
-### `~$ skills --list`
+### `~$ contributions --last-year`
 
-<img src="https://skillicons.dev/icons?i=py,java,cs,js,ts,html,css,django,spring,angular" alt="Stack icons — linguagens & frameworks" />
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=react,postgres,mysql,redis,aws,docker,kubernetes,git,bash" alt="Stack icons — libs, dados & infra" />
+<img src="assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
 
 </div>

@@ -8,6 +8,10 @@ import json
 import math
 from pathlib import Path
 
+
+def escape(text: str) -> str:
+    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
 
@@ -145,7 +149,7 @@ def build_svg(stats: dict) -> str:
     s = score(stats)
     letter, color = grade_for(s)
 
-    title = f"Estatísticas do GitHub de {stats['name']}"
+    title = f"Estatísticas do GitHub de {escape(stats['name'])}"
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}">
   <style>

@@ -2,6 +2,10 @@
 import json
 from pathlib import Path
 
+
+def escape(text: str) -> str:
+    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
 
@@ -47,7 +51,7 @@ def build_legend(languages: list[dict]) -> str:
         row = i // COLS
         x = 24 + col * COL_WIDTH
         y = ROWS_START_Y + row * ROW_HEIGHT
-        label = f'{lang["name"]} {lang["pct"]:.2f}%'
+        label = f'{escape(lang["name"])} {lang["pct"]:.2f}%'
         rows.append(f"""
   <g transform="translate({x:.1f},{y})">
     <circle cx="4" cy="-4" r="4" fill="{lang["color"]}"/>

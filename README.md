@@ -38,8 +38,8 @@
 
 <br>
 
-### `~$ contributions --last-year`
+<!-- ### `~$ contributions --last-year`
 
-<img src="assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
+<img src="assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap" /> -->
 
 </div>

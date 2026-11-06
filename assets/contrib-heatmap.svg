@@ -369,4 +369,5 @@
   <rect x="748" y="-11" width="11" height="11" rx="2" fill="#21262d" stroke="#30363d" stroke-width="1"><animate attributeName="y" from="-11" to="48" dur="0.4s" begin="0.780s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
   <rect x="748" y="-11" width="11" height="11" rx="2" fill="#21262d" stroke="#30363d" stroke-width="1"><animate attributeName="y" from="-11" to="62" dur="0.4s" begin="0.780s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
   <rect x="748" y="-11" width="11" height="11" rx="2" fill="#21262d" stroke="#30363d" stroke-width="1"><animate attributeName="y" from="-11" to="76" dur="0.4s" begin="0.780s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <rect x="748" y="-11" width="11" height="11" rx="2" fill="#21262d" stroke="#30363d" stroke-width="1"><animate attributeName="y" from="-11" to="90" dur="0.4s" begin="0.780s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
 </svg>
